@@ -1,0 +1,96 @@
+/* Container */
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  padding: 20px;
+}
+
+/* Box */
+.form-box {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}
+
+.form-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Title */
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Groups */
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group h4 {
+  margin-bottom: 8px;
+  color: #444;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #4facfe;
+}
+
+/* Radio & Checkbox */
+.form-group label {
+  font-size: 14px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #4facfe;
+}
+
+/* Button */
+.form-actions {
+  text-align: center;
+}
+
+button {
+  background: #4facfe;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #007adf;
+}

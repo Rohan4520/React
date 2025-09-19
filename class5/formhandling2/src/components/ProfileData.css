@@ -1,0 +1,96 @@
+/* Full page wrapper */
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  padding: 20px;
+}
+
+/* Card */
+.profile-card {
+  width: 100%;
+  max-width: 380px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Avatar */
+.profile-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: -60px auto 15px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Name & Email */
+.profile-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.profile-email {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+/* Info Section */
+.profile-info {
+  text-align: left;
+  margin: 15px 0;
+  padding: 10px 15px;
+  background: #f9fafc;
+  border-radius: 10px;
+}
+
+.profile-info p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.profile-info span {
+  font-weight: 600;
+  color: #222;
+}
+
+/* Button */
+.profile-btn {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 15px;
+  background: #667eea;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.profile-btn:hover {
+  background: #5a67d8;
+}
