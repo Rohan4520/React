@@ -1,0 +1,40 @@
+/* Navbar ka outer container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b; /* dark navy */
+  padding: 15px 40px;
+}
+
+/* Logo */
+.logo {
+  color: #facc15; /* yellow */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Nav links container */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Normal links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #facc15; /* yellow on hover */
+}
+
+/* Active link (NavLink ke isActive prop ke through) */
+.active-link {
+  color: #facc15;
+  font-weight: bold;
+  border-bottom: 2px solid #facc15;
+}
