@@ -1,0 +1,123 @@
+/* ----------------- Page Container ----------------- */
+.offer-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.offer-page h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  background: linear-gradient(90deg, #2490a6, #36aab9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.offer-page p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* ----------------- Offer Container ----------------- */
+.offer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+/* ----------------- Company Card ----------------- */
+.company-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  width: 260px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.company-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+}
+
+/* Company Header */
+.company-card .ss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.company-card h2 {
+  font-size: 1.5rem;
+  color: #14565e;
+  margin-bottom: 10px;
+}
+
+.company-card img {
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.company-card img:hover {
+  transform: scale(1.05);
+}
+
+/* Offers List */
+.company-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.company-card li {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: #f5f9fa;
+  transition: background 0.3s ease;
+}
+
+.company-card li:hover {
+  background: #e0f7fa;
+}
+
+/* Badge Style */
+.badge {
+  background: linear-gradient(90deg, #2490a6, #36aab9);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .company-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .company-card {
+    width: 100%;
+  }
+}
