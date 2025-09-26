@@ -1,0 +1,54 @@
+/* ===== Pagination.css ===== */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+  gap: 12px;
+}
+
+.page-control {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.page-control:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-control:hover:not(:disabled) {
+  background: #f8f9fa;
+  border-color: #adb5bd;
+}
+
+.page-numbers {
+  display: flex;
+  gap: 8px;
+}
+
+.page-num {
+  padding: 6px 12px;
+  border-radius: 50%;
+  border: none;
+  background: #e9ecef;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.page-num:hover {
+  background: #dee2e6;
+}
+
+.page-num.active {
+  background: #007bff;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
