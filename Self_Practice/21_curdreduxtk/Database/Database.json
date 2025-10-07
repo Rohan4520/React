@@ -1,0 +1,62 @@
+{
+  "PersonData": [
+    {
+      "id": "1",
+      "name": "Sachin",
+      "age": "20",
+      "gender": "Male",
+      "image": "../src/assets/images/Sachin.jpg",
+      "email": "ravi.sond455@gmail.com",
+      "phone": "7485962514",
+      "city": "Rewa"
+    },
+    {
+      "id": "3",
+      "name": "vadapav",
+      "age": "25",
+      "gender": "Male",
+      "image": "../src/assets/images/Rohit.jpg",
+      "email": "rohit25@gmail.com",
+      "phone": "9636528574",
+      "city": "mumbai"
+    },
+    {
+      "id": "4",
+      "name": "Smriti",
+      "age": "23",
+      "gender": "Female",
+      "image": "../src/assets/images/Smriti.jpg",
+      "email": "neha23@gmail.com",
+      "phone": "9636528574",
+      "city": "Indore"
+    },
+    {
+      "id": "6",
+      "name": "Ravi",
+      "age": "23",
+      "gender": "Male",
+      "image": "../src/assets/images/Ravi.jpg",
+      "email": "ravi23@gmail.com",
+      "phone": "9636528574",
+      "city": "Indore"
+    },
+    {
+      "id": "14",
+      "name": "Roshni Bhamoria",
+      "age": "23",
+      "gender": "Female",
+      "email": "chinnu4520@gmail.com",
+      "phone": "9981401805",
+      "city": "Ahmedabad"
+    },
+    {
+      "id": "07",
+      "name": "chikku",
+      "age": "23",
+      "gender": "Male",
+      "email": "chikku@gmail.com",
+      "phone": "62666411701",
+      "city": "indore"
+    }
+  ]
+}
