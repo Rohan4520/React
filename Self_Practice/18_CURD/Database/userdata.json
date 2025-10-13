@@ -1,0 +1,37 @@
+{
+    "user" : [
+        {
+            "id" : "1" ,
+            "name" :  "Ravi",
+            "email" : "ravi4520@gmail.com",
+            "age" : "26",
+            "phone" : "+91 6266641170",
+            "address" : "rewa "
+        },
+        {
+            "id" : "2" ,
+            "name" :  "Rohan",
+            "email" : "rohan4520@gmail.com",
+            "age" : "23",
+            "phone" : "7747808237",
+            "address" : "Indore"
+        },
+        {
+            "id" : "3" ,
+            "name" :  "chinnu",
+            "email" : "chinnu4520@gmail.com",
+            "age" : "23",
+            "phone" : "9981401805",
+            "address" : "ahmedabad"
+        },
+        {
+            "id" : "4" ,
+            "name" :  "nisha",
+            "email" : "nisha4520@gmail.com",
+            "age" : "27",
+            "phone" : "7852468179",
+            "address" : "shahdol"
+        }
+        
+    ]
+}
